@@ -1,7 +1,7 @@
 {
   "name": "encryptimatic-9000",
   "version": "1.0.0",
-  "description": "encrypt and decrypt files using nodejs crypto module (and no other dependencies)",
+  "description": "encrypt and decrypt files",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sfdeloach/encryptimatic-9000/issues"
   },
-  "homepage": "https://github.com/sfdeloach/encryptimatic-9000#readme"
+  "homepage": "https://github.com/sfdeloach/encryptimatic-9000#readme",
+  "dependencies": {
+    "file-encryptor": "^0.1.1"
+  }
 }
