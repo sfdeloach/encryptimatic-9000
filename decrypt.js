@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 var encryptor = require('file-encryptor');
 
 var input_file = process.argv[2];
